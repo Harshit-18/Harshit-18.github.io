@@ -1,0 +1,120 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+
+}
+h1{
+  color: #ffd31d;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+}
+h2{
+  font-style: normal;
+  color: #ffd31d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h3{
+  color: #ffa41b;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+p{
+  line-height: 2;
+  text-align: center;
+}
+hr{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  text-align: center;
+}
+  a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #EAF6F6;
+  }
+
+.top-container{
+  background-color: #00a8cc;
+  position: relative;
+  padding-top: 100px
+}
+.middle-container{
+  position: relative;
+  margin: 100px 0;
+  padding-top: 100px
+}
+.bottom-container{
+  margin: 100px 0;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.circular{
+  border-radius: 80%;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.code-img{
+  width: 12%;
+  float: left;
+  margin-right: 30px;
+}
+.main-skill{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999c 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
